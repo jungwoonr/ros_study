@@ -13,6 +13,13 @@ my first ros study
 - CMakeListsts.txt에서 빌드 후
 - 터미널에서 실행
 
+- topic_second 패키지 생성
+- second_pub, second_sub, py_second.py, py_second.py 노드 생성
+- CMakeListsts.txt에서 빌드 후
+- 터미널에서 실행
+
+- topic_test에서 과제1 진행
+
 ## ROS 명령어
 ### roscore
 - ROS Master 실행
@@ -24,6 +31,7 @@ my first ros study
 ### rosrun
 - 노드를 실행
 - rosrun 패키지이름 노드이름
+- 파이썬은 노드이름 맨 뒤에 .py 기입
 ```bash
     rosrun <패키지이름> <노드이름>
 ```
