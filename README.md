@@ -35,6 +35,16 @@ my first ros study
 ```bash
     rosrun <패키지이름> <노드이름>
 ```
+
+### 설정방법
+- cd catkin_ws -> cd devel -> gedit ~/.bashrc
+
+- 맨밑에서 밑의 소스들 추가 (설정)
+- source ~/catkin_ws/devel/setup.bash
+- alias cs='cd ~/catkin_ws/src'
+- alias cw='cd ~/catkin_ws'
+- alias cm='cd ~/catkin_ws && catkin_make'
+
 ### catkin_create_pkg
 - 현재 위치한 작업 공간에 패키지를 생성하는 함수
 - catkin_create_pkg 패키지이름 의존성
