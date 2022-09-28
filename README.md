@@ -36,10 +36,6 @@ my first ros study
 ```bash
     catkin_create_pkg topic_tutorial roscpp rospy std_msgs
 ```
-### <?> A,A,A </?>
--태그 함수
-- <?> 열고 </?> 닫고
-- 그사이에 내용 추가
 
 ### chmod +x *
 - 현재 위치아래 있는 모든파일에 실행권한을 주는 함수.
