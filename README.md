@@ -1,13 +1,13 @@
 # ros_study
 my first ros study
 
-### 2022년 9월 27일 2일차
+### 2022년 9월 27일 2일차 (토픽 통신)
 - topic_tutorial 패키지에 src생성
 - my_publisher, my_subscriber 노드 생성
 - CMakeListsts.txt에서 빌드 후
 - 터미널에서 실행
 
-### 2022년 9월 28일 3일차
+### 2022년 9월 28일 3일차 (토픽 통신)
 - topic_tutorial 패키지에 python scripts 생성
 - py_publisher.py, py_subscriber.py 노드 생성
 - CMakeListsts.txt에서 빌드 후
@@ -19,6 +19,14 @@ my first ros study
 - 터미널에서 실행
 
 - topic_test에서 과제1 진행
+
+### 2022년 9월 29일 4일차 (서비스 통신)
+- msg_tutorial 패키지에 msg 생성
+- msg안에 직접쓰기위한 Mymsg.msg 헤더파일 생성
+- msg_publisher, msg_subscriber 노드 생성
+- CMakeListsts.txt에서 빌드 후
+- 터미널에서 실행
+
 
 ## ROS 명령어
 ### roscore
