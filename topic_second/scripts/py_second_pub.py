@@ -22,3 +22,4 @@ if __name__ == "__main__":
         my_counter()
     except rospy.ROSInterruptException:
         pass
+    
