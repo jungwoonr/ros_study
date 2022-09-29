@@ -21,12 +21,11 @@ my first ros study
 - topic_test에서 과제1 진행
 
 ### 2022년 9월 29일 4일차 (서비스 통신)
-- msg_tutorial 패키지에 msg 생성
-- msg안에 직접쓰기위한 Mymsg.msg 헤더파일 생성
-- msg_publisher, msg_subscriber 노드 생성
+- msg_tutorial 패키지 생성
+- msg 디렉토리에 Mymsg.msg 생성
+- msg_publisher, msg_subscriber, py_msg_pub.py, py_msg_sub.py 노드 생성
 - CMakeListsts.txt에서 빌드 후
 - 터미널에서 실행
-
 
 ## ROS 명령어
 ### roscore
