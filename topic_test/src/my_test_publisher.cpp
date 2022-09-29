@@ -7,7 +7,7 @@ int main(int argc, char** argv){
 
     ros::Publisher pub = nh.advertise<std_msgs::Int64>("my_cnt", 100);
 
-    ros::Rate loop_rate(25);
+    ros::Rate loop_rate(4);
 
     std_msgs::Int64 msg;
     msg.data = 0;

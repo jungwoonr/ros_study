@@ -8,7 +8,7 @@ def publisher():
     pub = rospy.Publisher("my_cnt", Int64, queue_size=100)
     rospy.init_node("py_my_test_publisher")
     
-    loop_rate = rospy.Rate(25)
+    loop_rate = rospy.Rate(4)
     
     msg = Int64()
     msg.data = 0
