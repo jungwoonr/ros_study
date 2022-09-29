@@ -64,3 +64,4 @@ my first ros study
 
 ### chmod +x *
 - 현재 위치아래 있는 파이썬 파일에 실행권한을 주는 함수.
+
