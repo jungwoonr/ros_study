@@ -27,6 +27,21 @@ my first ros study
 - CMakeListsts.txt에서 빌드 후
 - 터미널에서 실행
 
+### 2022년 9월 30일 5일차 
+- 과제 2 yh_star
+
+- for문 활용해서 별 찍기
+- yh_star 패키지 생성
+- yh_star_pub, yh_star_sub, yh_star_pub.py, yh_star_sub.py 노드 생성
+- 빌드
+- 실행
+
+- 과제 3 yh_service
+- yh_service 패키지 생성
+- yh_server, yh_client, yh_server.py, yh_client.py 노드 생성
+- 빌드
+- 실행
+
 ## ROS 명령어
 ### roscore
 - ROS Master 실행
