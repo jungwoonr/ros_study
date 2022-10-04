@@ -28,7 +28,7 @@ my first ros study
 - 터미널에서 실행
 
 ### 2022년 9월 30일 5일차 
-- 과제 2 yh_star
+#### 과제 2 yh_star
 
 - for문 활용해서 별 찍기
 - yh_star 패키지 생성
@@ -36,11 +36,23 @@ my first ros study
 - 빌드
 - 실행
 
-- 과제 3 yh_service
+#### 과제 3 yh_service
 - yh_service 패키지 생성
 - yh_server, yh_client, yh_server.py, yh_client.py 노드 생성
 - 빌드
 - 실행
+
+## 2022년 10월 4일 6일차
+### [param_tutorial](./param_tutorial)
+- param_tutorial 패키지 생성
+- calculate_server, calculate_client, calculate_server.py, calculate_client.py 노드 생성
+- 빌드
+- 실행
+- 파라미터 서버 활용
+
+### 과제4 yh_dual
+
+### 과제5 yh_difference
 
 ## ROS 명령어
 ### roscore
