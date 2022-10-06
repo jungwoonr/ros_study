@@ -60,6 +60,18 @@ my first ros study
 
 ### [과제7 yh_connect](./yh_connect)
 
+## 2022년 10월 6일 7일차
+### [yh_turtle](./yh_turtle)
+- yh_turtle 패키지 생성
+- turtle_patrol, turtle_keyboard, turtle_clear, turtle_keyboard_clear, turtle_patrol.py, turtle_keyboard.py, turtle_clear.py, turtle_keyboard_clear.py 노드 생성
+- [teleop_twist_keyboard 패키지 설치]
+(#teleop_twist_keyboard 패키지 설치)
+- 빌드
+- 실행
+
+### [roslaunch 실습](#roslaunch)
+
+---
 
 ## ROS 명령어
 ### roscore
@@ -123,4 +135,25 @@ my first ros study
 ```bash
     jungwoonr@ubuntu: ~$ rosparam set <파라미터 이름> [파라미터 값]
 ```
+### teleop_twist_keyboard 패키지
+- 키보드 입력을 받아 /cmd_val 토픽의 geometry_msgs/Twist 메시지로 publish하는 노드
+-설치
+```bash
+& sudo apt install ros_melodic-teleop-twist-keyboard
+```
+-실행
+```bash
+$ rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+```
+
+### [roslaunch](#roslaunch)
+- roscore와 launch 파일에 있는 노드를을 실행시키는 명령
+- launch 파일은 '패키지 디렉토리/launch'에 만든다.
+- roslaunch 실행
+```bash
+$ roslaunch <패키지이름> <런치파일이름>
+```
+-launch 파일은 <launch></launcd> 태그 사이에 내용을 입력한다.
+- node 태그는 패키지 이름, 노드 타입, 노드 이름을 입력한다.
+- param 태그는 파라미터 이름, 값, 타입을 입력한다.
 
