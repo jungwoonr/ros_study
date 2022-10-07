@@ -178,7 +178,8 @@ target_link_libraries(turtle_keyboard_clear ${catkin_LIBRARIES})
 ## in contrast to setup.py, you can choose the destination
 catkin_install_python(PROGRAMS
   scripts/turtle_patrol.py scripts/turtle_keyboard.py scripts/turtle_clear.py
-  scripts/turtle_keyboard_clear.py
+  scripts/turtle_keyboard_clear.py scripts/turtle_circle.py scripts/turtle_triangle.py
+  scripts/turtle_goal.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
