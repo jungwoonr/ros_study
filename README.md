@@ -60,7 +60,7 @@ my first ros study
 
 ### [과제7 yh_connect](./yh_connect)
 
-## 2022년 10월 6일 7일차
+## 2022년 10월 6일 8일차
 ### [yh_turtle](./yh_turtle)
 - yh_turtle 패키지 생성
 - turtle_patrol, turtle_keyboard, turtle_clear, turtle_keyboard_clear, turtle_patrol.py, turtle_keyboard.py, turtle_clear.py, turtle_keyboard_clear.py 노드 생성
